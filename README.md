@@ -26,6 +26,10 @@
 
 </div>
 
+---
+## About RsType
+A misskey fork for misskey.rest that implements features borrowed from several misskey forks as well as its own features.
+
 ## Thanks
 
 <a href="https://sentry.io/"><img src="https://github.com/misskey-dev/misskey/assets/4439005/98576556-222f-467a-94be-e98dbda1d852" height="30" alt="Sentry" /></a>
