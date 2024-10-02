@@ -327,6 +327,10 @@ onUnmounted(() => {
 		> .punished {
 			font-size: 0.8em;
 			padding: 16px;
+			background: var(--infoWarnBg);
+			color: var(--infoWarnFg);
+			border-radius: var(--radius);
+			overflow: clip;
 		}
 
 		> .profile {
