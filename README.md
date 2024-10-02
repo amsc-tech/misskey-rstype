@@ -27,7 +27,7 @@
 </div>
 
 ---
-## About RsType
+## About RT Fork
 A misskey fork for misskey.rest that implements features borrowed from several misskey forks as well as its own features.
 
 ## Thanks
