@@ -2768,3 +2768,9 @@ _embedCodeGen:
   generateCode: "埋め込みコードを作成"
   codeGenerated: "コードが生成されました"
   codeGeneratedDescription: "生成されたコードをウェブサイトに貼り付けてご利用ください。"
+
+__rest:
+  extendSettings: Misskey.rest独自機能
+  hideLocalTimeLine: ローカルタイムラインを非表示にする
+  hideSocialTimeLine: ソーシャルタイムラインを非表示にする
+  hideGlobalTimeLine: グローバルタイムラインを非表示にする

@@ -222,6 +222,16 @@ SPDX-License-Identifier: AGPL-3.0-only
 	</FormSection>
 
 	<FormSection>
+		<template #label>{{ i18n.ts.__rest.extendSettings }}</template>
+
+		<div class="_gaps">
+			<MkSwitch v-model="hideLocalTimeLine">{{ i18n.ts.__rest.hideLocalTimeLine }}</MkSwitch>
+			<MkSwitch v-model="hideSocialTimeLine">{{ i18n.ts.__rest.hideSocialTimeLine }}</MkSwitch>
+			<MkSwitch v-model="hideGlobalTimeLine">{{ i18n.ts.__rest.hideGlobalTimeLine }}</MkSwitch>
+		</div>
+	</FormSection>
+
+	<FormSection>
 		<template #label>{{ i18n.ts.other }}</template>
 
 		<div class="_gaps">
@@ -320,6 +330,9 @@ const useNativeUIForVideoAudioPlayer = computed(defaultStore.makeGetterSetter('u
 const alwaysConfirmFollow = computed(defaultStore.makeGetterSetter('alwaysConfirmFollow'));
 const confirmWhenRevealingSensitiveMedia = computed(defaultStore.makeGetterSetter('confirmWhenRevealingSensitiveMedia'));
 const contextMenu = computed(defaultStore.makeGetterSetter('contextMenu'));
+const hideLocalTimeLine = computed(defaultStore.makeGetterSetter('hideLocalTimeLine'));
+const hideGlobalTimeLine = computed(defaultStore.makeGetterSetter('hideGlobalTimeLine'));
+const hideSocialTimeLine = computed(defaultStore.makeGetterSetter('hideSocialTimeLine'));
 
 watch(lang, () => {
 	miLocalStorage.setItem('lang', lang.value as string);
