@@ -473,6 +473,18 @@ export const defaultStore = markRaw(new Storage('base', {
 		default: true,
 	},
 
+	hideLocalTimeLine: {
+		where: 'device',
+		default: false,
+	},
+	hideSocialTimeLine: {
+		where: 'device',
+		default: false,
+	},
+	hideGlobalTimeLine: {
+		where: 'device',
+		default: false,
+	},
 	sound_masterVolume: {
 		where: 'device',
 		default: 0.3,
